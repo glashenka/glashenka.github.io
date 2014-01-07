@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <style type="text/css">
-            html, body, .btn, li {
+            html, body, .btn, li, textarea.form-control {
                 -webkit-font-smoothing: antialiased;
                 font-size: large;
                 /*line-height: 1.6em;*/
             }
+
             .dropdown {
                 display: inline-block;
             }
@@ -21,7 +22,7 @@
 <div class="container">
 
 <h1></h1>
-
+<form class="form-inline" role="form">
 <p>
     <code>
         window.onload(function(){<br>
@@ -71,14 +72,19 @@
         <option>No</option>
     </select>
 </p>
+<p>
+    &ndash; Your turn:
+    <textarea class="form-control" rows="3"></textarea>
+</p>
     <code>
         ";<br>
         &nbsp;&nbsp;&nbsp;&nbsp;document.title = "</code>?<code>";<br>
         });
     </code>
     <br><br>
-    <button class="btn btn-default">Submit?</button>
+    <button class="btn btn-default">Submit</button> <button class="btn btn-info">?</button> <button class="btn btn-default">Cancel</button>
 </p>
+</form>
 </div>
 
         <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
