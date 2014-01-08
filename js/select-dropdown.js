@@ -38,7 +38,7 @@
             dropdownTrigger.setAttribute('class', 'dropdown-toggle btn btn-default');
             dropdownTrigger.setAttribute('data-toggle', 'dropdown');
             dropdownTrigger.setAttribute('href', '#');
-            dropdownTrigger.innerHTML = 'Select me!' + caretText;
+            dropdownTrigger.innerHTML = '?' + caretText;
 
             dropdownDiv.appendChild(dropdownTrigger);
 
